@@ -10,7 +10,7 @@
 
 #define KPAGEFLAGS_PATH		"/proc/kpageflags"
 #define KPAGECGROUP_PATH	"/proc/kpagecgroup"
-#define KPAGEIDLE_PATH		"/proc/kpageidle"
+#define KPAGEIDLE_PATH		"/sys/kernel/mm/page_idle/bitmap"
 
 // must be multiple of 64 for the sake of kpageidle
 #define KPAGE_BATCH		1024
