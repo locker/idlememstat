@@ -19,9 +19,7 @@ Note, `idlememstat` does not consider unused mlocked pages as idle.
 Prerequisites
 -------------
 
-0. Linux kernel with `CONFIG_IDLE_PAGE_TRACKING` set. The patch set
-   introducing this feature has not been merged yet. It can be found by
-   the link: <https://lkml.org/lkml/2015/7/15/587>
+0. Linux kernel with `CONFIG_IDLE_PAGE_TRACKING` set (4.3+ required)
 0. `g++` with c++11 support
 0. `python-2.7` + devel package
 0. memory cgroup controller must be mounted under
